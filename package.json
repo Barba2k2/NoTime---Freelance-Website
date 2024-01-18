@@ -1,6 +1,16 @@
 {
   "name": "no_time",
   "version": "0.1.0",
+  "description": "Freelancer Website Project",
+  "author": {
+    "name": "Barba Tech",
+    "email": "barba.tech23@gmail.com"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/barbajs/no_time.git"
+  },
   "private": true,
   "scripts": {
     "dev": "next dev",
