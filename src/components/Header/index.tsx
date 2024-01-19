@@ -1,20 +1,26 @@
 import React from "react";
 import styles from "./style.module.scss";
 // import { SignInButon } from "../SignInButton";
-import { Active, HeaderContainer, HeaderContent } from "@/styles/pages/header";
+import {
+  PublishButton,
+  HeaderContainer,
+  HeaderContent,
+} from "@/styles/pages/header";
+import Home from "@/pages";
 
 export function Header() {
   return (
     <HeaderContainer>
-      <HeaderContent>
-        <img src="/images/logo.svg" alt="ig.news" />
-        <nav>
-          <Active>Home</Active>
-          <a>Posts</a>
-        </nav>
-
-        {/* <SignInButon /> */}
-      </HeaderContent>
+      <h1>Header</h1>
+      {/* <HeaderContent> */}
+      {/* Home
+            Find Work
+            Login
+            Sign Up
+            Publish Project
+        */}
+      <PublishButton>Publicar Projeto</PublishButton>
+      {/* </HeaderContent> */}
     </HeaderContainer>
   );
 }
